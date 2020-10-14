@@ -1,9 +1,9 @@
 Twitter bot
 
-Create with Python and Selenium
+Created with Python and Selenium
 
-Automatic Login
-Automatic search
+~ Automatic Login
+~ Automatic search
 
 Its open contribute more  will add more.
 

@@ -8,7 +8,7 @@ class TwitterBot:
     def __init__(self, username, password):
         self.username = username
         self.password = password
-        self.bot = webdriver.Chrome("D:/My room/pythonProject/chromedriver.exe")
+        self.bot = webdriver.Chrome(driver_location)
 
     def login(self):
         bot = self.bot
@@ -30,7 +30,7 @@ class TwitterBot:
         search.send_keys(Keys.RETURN)
         time.sleep(4)
 
-
+driver_location = input("Enter Driver's Location: ")
 user_name = input("Enter username: ")
 user_password = input("Enter Password: ")
 search_text = input('Enter #(text) only to search: ')
